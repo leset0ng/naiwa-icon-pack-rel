@@ -1,0 +1,48 @@
+{
+  "item": {
+    "id": "naiwapack",
+    "restype": "res_pack",
+    "name": "奶娃图标包",
+    "description": "一款奇异搞笑的图标包，适配了11和10pro，替换了系统应用图标和设置图标\n收费一元，给免费的corona模块补补血",
+    "preview": [
+      "media/character-icon-pack-promo.png"
+    ],
+    "icon": "media/canopus-character.png",
+    "cover": "media/character-icon-pack-promo.png",
+    "author": [
+      {
+        "name": "lst",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.1.0",
+      "file_name": "downloads/naiwa-p67-3.101.043.crpack",
+      "versionCode": 2
+    },
+    "xmb11": {
+      "version": "1.1.0",
+      "file_name": "downloads/naiwa-xiaomi-band-11-4.100.155.crpack",
+      "versionCode": 2
+    },
+    "xmb11nfc": {
+      "version": "1.1.0",
+      "file_name": "downloads/naiwa-xiaomi-band-11-4.100.155-xmb11nfc.crpack",
+      "versionCode": 2
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true,
+    "bundledResources": {
+      "required": [
+        {
+          "type": "resource",
+          "id": "ng.lst.corona"
+        }
+      ]
+    }
+  }
+}
