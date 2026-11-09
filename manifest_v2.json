@@ -35,14 +35,6 @@
     }
   },
   "ext": {
-    "enableAstroBoxCreatorFeatures": true,
-    "bundledResources": {
-      "required": [
-        {
-          "type": "resource",
-          "id": "ng.lst.corona"
-        }
-      ]
-    }
+    "enableAstroBoxCreatorFeatures": true
   }
 }
